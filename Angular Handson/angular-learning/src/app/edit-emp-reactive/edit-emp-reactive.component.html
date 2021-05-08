@@ -1,0 +1,43 @@
+<!-- 
+Name: <input type="text" [formControl]='name'>
+ -->
+<div class="block">
+ <form [formGroup]="empForm" (ngSubmit)="onSubmit()">
+ Name : <input formControlName="name">
+ <div class="errorMessage" *ngIf="errors?.required">Name must be present!!</div>
+ <div class="errorMessage" *ngIf="errors?.minlength">Name must have a minimum of 4 characters!</div>
+ <div class="errorMessage" *ngIf="errors?.maxlength">Name must have a maximum of 20 characters!</div>
+ <div>
+  <h3>Department</h3>
+  <select formControlName="department">
+    <option *ngFor="let department of departments" [ngValue]="department" [selected]="department?.id === employee.department.id">
+      {{department?.name}}
+    </option>
+  </select>
+</div>
+<br>
+<div>
+Salary: <input type="text" id="salary" formControlName="salary" class="form-control">
+</div>
+<br>
+<b>Is Permanent or not?</b>
+<input type="radio" name="permanent" formControlName="permanent" [value]="permanent?.value === true" id="permanentTrue">Yes
+<input type="radio" name="permanent" formControlName="permanent" [value]="permanent?.value === false" id="permanentFalse">No
+<br>
+<button type="submit" [disabled]="!empForm.valid">Save</button>
+</form>
+</div>
+<div class="block">
+
+<strong>Employee Model</strong><br>
+
+<pre>{{employee | json }}</pre>
+
+</div>
+<div class="block">
+
+<strong>Angular Generated Form Model</strong><br>
+
+<pre>{{empForm.value | json}}</pre>
+
+</div>

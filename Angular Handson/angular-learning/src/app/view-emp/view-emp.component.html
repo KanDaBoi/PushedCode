@@ -1,0 +1,24 @@
+
+<h1>Employee Details:</h1>
+<h3>ID: {{employee.id}}</h3>
+<h3>Name: {{employee.name}}</h3>
+<h3>Salary: {{employee.salary | currency: 'INR' }}</h3>
+<h3 *ngIf="employee.permanent;else notPermanent">Permanent: Yes</h3>
+<ng-template #notPermanent>
+  <h3>Permanent: No</h3>
+</ng-template>
+<h3>Department ID: {{employee.department.id}}</h3>
+<h3 id="departmentName">Department Name: {{employee.department.name}}</h3>
+ <table>
+    <thead>
+      <th>Skill Id</th>
+      <th>Skill Name</th>
+    </thead>
+    <tr *ngFor="let skill of employee.skills">
+      <td>{{skill.id}}</td>
+      <td>{{skill.name}}</td>
+    </tr>
+ </table>
+ <p> <b>Date of Birth:</b> {{employee.dateOfBirth | date:"MMM dd,yyyy"}}</p>
+<router-outlet></router-outlet>
+

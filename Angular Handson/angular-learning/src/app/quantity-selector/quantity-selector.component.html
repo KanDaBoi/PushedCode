@@ -1,0 +1,4 @@
+<p>Model Binding</p>
+<button (click)="onDecrement()" id="minus" [disabled]="counter == 0">-</button>
+<input type="text" id="counter" [(ngModel)] = "counter">
+<button (click)="onIncrement()" id="plus">+</button>

@@ -1,0 +1,10 @@
+<h3>Login</h3>
+<form>
+  Username: <input type="text" name="username" [(ngModel)]="username" required>
+  <br>
+  <br>
+  Password: <input type="password" name="password" [(ngModel)]="password" required>
+  <br>
+  <button type="submit" (click)="login()">LOGIN</button>
+</form>
+<router-outlet></router-outlet>

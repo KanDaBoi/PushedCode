@@ -1,0 +1,11 @@
+<h1>Employee List</h1>
+Search <input type="text" [(ngModel)]="searchKey" (keyup)="search()" id="search" placeholder="Find by name">
+<br>
+<br>
+<div *ngFor="let employee of filteredEmployees" class="employee-card">
+  {{employee.name}}
+  <br>
+  {{employee.salary | currency: 'INR'}}
+  <br>
+  <app-employee-info [employee]="employee"></app-employee-info>
+</div>

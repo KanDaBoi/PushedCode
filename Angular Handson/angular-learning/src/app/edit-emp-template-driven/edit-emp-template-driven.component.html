@@ -1,0 +1,59 @@
+<h1 id="templateDriven">Edit Employee</h1>
+<div class="block">
+<form #empForm="ngForm" (ngSubmit)="onSubmit()">
+  <table>
+  <tr>
+  <td><label for="name"><b>Name</b></label></td>
+  <td><input type="text" class="form-control" id="name" required minlength="2" maxlength="10" [(ngModel)]="employee.name" name="name" #name="ngModel" /></td>
+  <div class="errorMessage" *ngIf="name.errors?.required">Name must be present!!</div>
+  <div class="errorMessage" *ngIf="name.errors?.minlength">Name must have a minimum of 2 characters!</div>
+  <div class="errorMessage" *ngIf="name.errors?.maxlength">Name must have a maximum of 10 characters!</div>
+  </tr>
+  <br>
+  <tr>
+  <td><label for="salary"><b>Salary</b></label></td>
+  <td><input type="text" class="form-control" id="salary" [(ngModel)]="employee.salary" name="salary" #salary="ngModel" /></td>
+  </tr>
+  <br>
+  <tr>
+  <td><label for="permanent"><b>Is Permanent or not?</b></label></td>
+  <td>
+    <input type="radio" name="permanent" id="permanentTrue" [value]="true" [(ngModel)]="employee.permanent" />Yes
+    <input type="radio" name="permanent" id="permanentFalse" [value]="false" [(ngModel)]="employee.permanent" />No
+  </td>
+  </tr>
+  <br>
+  <tr>
+    <td><label for="selectDept"><b>Department</b></label></td>
+    <td>
+        <select id="selectDept" name="selectDept" [(ngModel)]="employee.department.id" (change)="changeFn($event)">
+           <option *ngFor="let department of departments" [value]="department.id">{{department.name}}</option>
+        </select>
+    </td>
+  </tr>
+  </table>
+  <br>
+  <button type="submit" [disabled]="!empForm.valid">Save</button>
+</form>
+</div>
+<div class="block">
+
+<strong>Employee Model</strong><br>
+
+<pre>{{employee | json }}</pre>
+
+</div>
+<div class="block">
+
+<strong>Angular Generated Form Model</strong><br>
+
+<pre>{{empForm.value | json}}</pre>
+
+</div>
+<div class="block">
+
+<strong>Department Model</strong><br>
+
+<pre>{{departments | json }}</pre>
+
+</div>
