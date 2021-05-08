@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="SUCCESS-FILE"
+		class="ch.qos.logback.core.FileAppender">
+		<file>D:/patientlogs/activity.log</file>
+		<append>true</append>
+		<encoder>
+			<pattern>%d{EEE hh:mm:ss dd/MM/yyyy} [%thread] [%5p] [%5F] - %m%n
+			</pattern>
+		</encoder>
+	</appender>
+	<appender name="ERRORS-FILE"
+		class="ch.qos.logback.core.FileAppender">
+		<file>D:/patientlogs/error.log</file>
+		<append>true</append>
+		<encoder>
+			<pattern>%d{EEE hh:mm:ss dd/MM/yyyy} [%thread] [%5p] [%5F] - %m%n
+			</pattern>
+		</encoder>
+	</appender>
+	<!-- additivity=false ensures analytics data only goes to the analytics 
+		log -->
+	<logger name="success" level="debug" additivity="false">
+		<appender-ref ref="SUCCESS-FILE" />
+	</logger>
+	<root level="error">
+		<appender-ref ref="ERRORS-FILE" />
+	</root>
+</configuration>
