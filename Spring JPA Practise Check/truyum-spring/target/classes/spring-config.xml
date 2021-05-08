@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop
+	 http://www.springframework.org/schema/aop/spring-aop-3.2.xsd 
+	 http://www.springframework.org/schema/beans 
+	 http://www.springframework.org/schema/beans/spring-beans-3.2.xsd 
+	 http://www.springframework.org/schema/context 
+	 http://www.springframework.org/schema/context/spring-context-3.2.xsd 
+	 http://www.springframework.org/schema/jee 
+	 http://www.springframework.org/schema/jee/spring-jee-3.2.xsd 
+	 http://www.springframework.org/schema/tx 
+	 http://www.springframework.org/schema/tx/spring-tx-3.2.xsd 
+	 http://www.springframework.org/schema/task 
+	 http://www.springframework.org/schema/task/spring-task-3.2.xsd">
+
+	<context:component-scan base-package="com.cognizant.truyum.*" />
+	
+	<bean id="dateFormat" class="java.text.SimpleDateFormat">
+		<constructor-arg value="EEE MMM dd hh:mm:ss z yyyy"></constructor-arg>
+	</bean>
+	<bean id="sandwich" class="com.cognizant.truyum.model.MenuItem">
+		<property name="id" value="1"></property>
+		<property name="name" value="Sandwich"></property>
+		<property name="price" value="99.0"></property>
+		<property name="active" value="true"></property>
+		<property name="dateOfLaunch">
+			<bean factory-bean="dateFormat" factory-method="parse">
+				<constructor-arg
+					value="Wed Mar 15 00:00:00 IST 2017"></constructor-arg>
+			</bean>
+		</property>
+		<property name="category" value="Main Course"></property>
+		<property name="freeDelivery" value="true"></property>
+	</bean>
+	<bean id="burger" class="com.cognizant.truyum.model.MenuItem">
+		<property name="id" value="2"></property>
+		<property name="name" value="Burger"></property>
+		<property name="price" value="129.0"></property>
+		<property name="active" value="true"></property>
+		<property name="dateOfLaunch">
+			<bean factory-bean="dateFormat" factory-method="parse">
+				<constructor-arg
+					value="Sat Dec 23 00:00:00 IST 2017"></constructor-arg>
+			</bean>
+		</property>
+		<property name="category" value="Main Course"></property>
+		<property name="freeDelivery" value="false"></property>
+	</bean>
+	<bean id="pizza" class="com.cognizant.truyum.model.MenuItem">
+		<property name="id" value="3"></property>
+		<property name="name" value="Pizza"></property>
+		<property name="price" value="149.0"></property>
+		<property name="active" value="true"></property>
+		<property name="dateOfLaunch">
+			<bean factory-bean="dateFormat" factory-method="parse">
+				<constructor-arg
+					value="Tue Aug 21 00:00:00 IST 2018"></constructor-arg>
+			</bean>
+		</property>
+		<property name="category" value="Main Course"></property>
+		<property name="freeDelivery" value="false"></property>
+	</bean>
+	<bean id="fries" class="com.cognizant.truyum.model.MenuItem">
+		<property name="id" value="4"></property>
+		<property name="name" value="French Fries"></property>
+		<property name="price" value="57.0"></property>
+		<property name="active" value="false"></property>
+		<property name="dateOfLaunch">
+			<bean factory-bean="dateFormat" factory-method="parse">
+				<constructor-arg
+					value="Sun Jul 02 00:00:00 IST 2017"></constructor-arg>
+			</bean>
+		</property>
+		<property name="category" value="Starters"></property>
+		<property name="freeDelivery" value="true"></property>
+	</bean>
+	<bean id="brownie" class="com.cognizant.truyum.model.MenuItem">
+		<property name="id" value="5"></property>
+		<property name="name" value="Chocolate Brownie"></property>
+		<property name="price" value="32.0"></property>
+		<property name="active" value="true"></property>
+		<property name="dateOfLaunch">
+			<bean factory-bean="dateFormat" factory-method="parse">
+				<constructor-arg
+					value="Wed Nov 02 00:00:00 IST 2022"></constructor-arg>
+			</bean>
+		</property>
+		<property name="category" value="Dessert"></property>
+		<property name="freeDelivery" value="true"></property>
+	</bean>
+
+	<bean id="menuItems" class="java.util.ArrayList">
+		<constructor-arg>
+			<list>
+				<ref bean="sandwich"></ref>
+				<ref bean="burger"></ref>
+				<ref bean="pizza"></ref>
+				<ref bean="fries"></ref>
+				<ref bean="brownie"></ref>
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	
+</beans>
