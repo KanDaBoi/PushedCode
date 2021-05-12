@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="deptPayroll"
+		class="com.cognizant.springrestlearn.model.Department">
+		<property name="id" value="1" />
+		<property name="name" value="Payroll" />
+	</bean>
+	<bean id="deptInternal"
+		class="com.cognizant.springrestlearn.model.Department">
+		<property name="id" value="2" />
+		<property name="name" value="Internal" />
+	</bean>
+	<bean id="deptHR"
+		class="com.cognizant.springrestlearn.model.Department">
+		<property name="id" value="3" />
+		<property name="name" value="HR" />
+	</bean>
+	<bean id="departmentList" class="java.util.ArrayList">
+		<constructor-arg>
+			<list>
+				<ref bean="deptPayroll" />
+				<ref bean="deptInternal" />
+				<ref bean="deptHR" />
+			</list>
+		</constructor-arg>
+	</bean>
+	<bean id="skillC"
+		class="com.cognizant.springrestlearn.model.Skill">
+		<property name="id" value="1" />
+		<property name="name" value="C" />
+	</bean>
+	<bean id="skillPython"
+		class="com.cognizant.springrestlearn.model.Skill">
+		<property name="id" value="2" />
+		<property name="name" value="Java" />
+	</bean>
+	<bean id="skillJava"
+		class="com.cognizant.springrestlearn.model.Skill">
+		<property name="id" value="3" />
+		<property name="name" value="Python" />
+	</bean>
+
+	<bean id="john"
+		class="com.cognizant.springrestlearn.model.Employee">
+		<property name="id" value="1" />
+		<property name="name" value="John" />
+		<property name="salary" value="10000" />
+		<property name="permanent" value="false" />
+		<property name="department">
+			<ref bean="deptPayroll" />
+		</property>
+		<property name="skills">
+			<list>
+				<ref bean="skillC" />
+				<ref bean="skillJava" />
+				<ref bean="skillPython" />
+			</list>
+		</property>
+	</bean>
+	<bean id="smith"
+		class="com.cognizant.springrestlearn.model.Employee">
+		<property name="id" value="2" />
+		<property name="name" value="Smith" />
+		<property name="salary" value="50000" />
+		<property name="permanent" value="true" />
+		<property name="department">
+			<ref bean="deptInternal" />
+		</property>
+		<property name="skills">
+			<list>
+				<ref bean="skillPython" />
+			</list>
+		</property>
+	</bean>
+	<bean id="mary"
+		class="com.cognizant.springrestlearn.model.Employee">
+		<property name="id" value="3" />
+		<property name="name" value="Mary" />
+		<property name="salary" value="35000" />
+		<property name="permanent" value="true" />
+		<property name="department">
+			<ref bean="deptHR" />
+		</property>
+		<property name="skills">
+			<list>
+				<ref bean="skillJava" />
+				<ref bean="skillPython" />
+			</list>
+		</property>
+	</bean>
+	<bean id="david"
+		class="com.cognizant.springrestlearn.model.Employee">
+		<property name="id" value="4" />
+		<property name="name" value="David" />
+		<property name="salary" value="50000" />
+		<property name="permanent" value="true" />
+		<property name="department">
+			<ref bean="deptInternal" />
+		</property>
+		<property name="skills">
+			<list>
+				<ref bean="skillC" />
+				<ref bean="skillPython" />
+			</list>
+		</property>
+	</bean>
+	<bean id="employeeList" class="java.util.ArrayList">
+		<constructor-arg>
+			<list>
+				<ref bean="john" />
+				<ref bean="smith" />
+				<ref bean="mary" />
+				<ref bean="david" />
+			</list>
+		</constructor-arg>
+	</bean>
+</beans>
