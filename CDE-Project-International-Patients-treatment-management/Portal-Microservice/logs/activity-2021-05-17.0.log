@@ -1,0 +1,1054 @@
+2021-05-17_10-49-20 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_10-49-20 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 6112 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_10-49-20 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_10-49-20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_10-49-20 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_10-49-20 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_10-49-20 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_10-49-20 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4820 ms
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_10-49-20 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_10-49-20 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_10-49-20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_10-49-20 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_10-49-20 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_10-49-20 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_10-49-20 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 8.853 seconds (JVM running for 10.482)
+2021-05-17_10-49-20 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_10-49-20 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_10-49-20 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_11-11-30 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_11-11-30 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 17096 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_11-11-30 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_11-11-30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-11-30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_11-11-30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_11-11-30 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_11-11-30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5151 ms
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_11-11-30 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_11-11-30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-11-30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_11-11-30 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_11-11-30 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_11-11-30 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_11-11-30 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 9.971 seconds (JVM running for 11.346)
+2021-05-17_11-11-30 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_11-11-30 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_11-11-30 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_11-11-30 [http-nio-8500-exec-9] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xa3}rJ<b0x0a0xe60xce0xa60xddi%0xb2,0x13Uk0xcd!0x98>0x97*0xd50xb1Qw0x17,Oh]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-05-17_11-11-30 [http-nio-8500-exec-8] INFO  o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xed0xab0x130x1c[0x0b820xd1}S7o0x830xab0x8dF0x120x05R%0x140xde7J0xc9\%040xe60x94]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-05-17_11-15-45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_11-15-45 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 14916 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_11-15-45 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_11-15-45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-15-45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_11-15-45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_11-15-45 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_11-15-45 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5387 ms
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_11-15-45 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_11-15-45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-15-45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_11-15-45 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_11-15-45 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_11-15-45 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_11-15-45 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 9.903 seconds (JVM running for 11.424)
+2021-05-17_11-15-45 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_11-15-45 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_11-15-45 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_11-57-59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_11-57-59 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 19264 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_11-57-59 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_11-57-59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-57-59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_11-57-59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_11-57-59 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_11-57-59 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4413 ms
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_11-57-59 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_11-57-59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-57-59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_11-57-59 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_11-57-59 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_11-57-59 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_11-57-59 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 8.737 seconds (JVM running for 10.559)
+2021-05-17_11-57-59 [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_11-58-17 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 19264 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_11-58-17 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_11-58-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-58-17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_11-58-17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_11-58-17 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_11-58-17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1392 ms
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_11-58-17 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_11-58-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_11-58-17 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_11-58-17 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_11-58-17 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_11-58-17 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 2.881 seconds (JVM running for 23.642)
+2021-05-17_11-58-17 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_11-58-17 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_11-58-17 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_11-58-17 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-05-17_11-58-17 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_11-59-52 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 19264 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_11-59-52 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_11-59-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-59-52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_11-59-52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_11-59-52 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_11-59-52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1619 ms
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_11-59-52 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_11-59-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_11-59-52 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_11-59-52 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_11-59-52 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-05-17_11-59-52 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_11-59-52 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_11-59-52 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_11-59-52 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 3.246 seconds (JVM running for 118.41)
+2021-05-17_11-59-52 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_12-42-48 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_12-42-48 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 15600 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_12-42-48 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_12-42-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_12-42-48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_12-42-48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_12-42-48 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_12-42-48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4383 ms
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_12-42-48 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_12-42-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_12-42-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_12-42-48 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_12-42-48 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_12-42-48 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_12-42-48 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 8.181 seconds (JVM running for 9.543)
+2021-05-17_12-42-48 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_12-42-48 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_12-42-48 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-05-17_15-40-01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_15-40-01 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 18208 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_15-40-01 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_15-40-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_15-40-01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_15-40-01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_15-40-01 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_15-40-01 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3992 ms
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_15-40-01 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_15-40-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_15-40-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_15-40-01 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_15-40-01 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_15-40-01 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_15-40-01 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 8.582 seconds (JVM running for 10.364)
+2021-05-17_15-40-01 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_15-40-01 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_15-40-01 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-05-17_15-56-17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_15-56-17 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 26256 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_15-56-17 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_15-56-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_15-56-17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_15-56-17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_15-56-17 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_15-56-17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2505 ms
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_15-56-17 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_15-56-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_15-56-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_15-56-17 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_15-56-17 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_15-56-17 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_15-56-17 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 4.987 seconds (JVM running for 5.865)
+2021-05-17_15-56-17 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_15-56-17 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_15-56-17 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_17-55-23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_17-55-23 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 1476 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_17-55-23 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_17-55-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_17-55-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_17-55-23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_17-55-23 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_17-55-23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4170 ms
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_17-55-23 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_17-55-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_17-55-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_17-55-23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_17-55-23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_17-55-23 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_17-55-23 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 8.286 seconds (JVM running for 10.162)
+2021-05-17_17-55-23 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_17-55-23 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_17-55-23 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-05-17_18-00-40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_18-00-40 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 17748 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_18-00-40 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_18-00-40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_18-00-40 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_18-00-40 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_18-00-40 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_18-00-40 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3736 ms
+2021-05-17_18-00-40 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_18-00-40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_18-00-40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8500"]
+2021-05-17_18-00-40 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-05-17_18-00-40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8500"]
+2021-05-17_18-00-40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8500"]
+2021-05-17_18-00-40 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-17_18-01-18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_18-01-18 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 22148 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_18-01-18 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_18-01-18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_18-01-18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_18-01-18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_18-01-18 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_18-01-18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4024 ms
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_18-01-18 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_18-01-18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_18-01-18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_18-01-18 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_18-01-18 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_18-01-18 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_18-01-18 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 9.068 seconds (JVM running for 10.652)
+2021-05-17_18-01-18 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_18-01-18 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_18-01-18 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-05-17_20-33-31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_20-33-31 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 27308 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_20-33-31 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_20-33-31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_20-33-31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_20-33-31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_20-33-31 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_20-33-31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4684 ms
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_20-33-31 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_20-33-31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_20-33-31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_20-33-31 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_20-33-31 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_20-33-31 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_20-33-31 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 8.671 seconds (JVM running for 11.065)
+2021-05-17_20-33-31 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_20-33-31 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_20-33-31 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-05-17_20-33-31 [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_20-39-30 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 27308 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_20-39-30 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_20-39-30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_20-39-30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_20-39-30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_20-39-30 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_20-39-30 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_20-39-30 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_20-39-30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_20-39-30 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_20-39-30 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_20-39-30 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_20-39-30 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 2.384 seconds (JVM running for 364.7)
+2021-05-17_20-39-30 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_20-39-30 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_20-39-30 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_20-39-30 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_20-39-30 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_21-03-33 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 27308 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_21-03-33 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_21-03-33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-03-33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_21-03-33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_21-03-33 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_21-03-33 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1108 ms
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_21-03-33 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_21-03-33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_21-03-33 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_21-03-33 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_21-03-33 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_21-03-33 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 2.295 seconds (JVM running for 1807.793)
+2021-05-17_21-03-33 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_21-03-33 [Thread-17] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_21-03-48 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 27308 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_21-03-48 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_21-03-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-03-48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_21-03-48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_21-03-48 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_21-03-48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 915 ms
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_21-03-48 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_21-03-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_21-03-48 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_21-03-48 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_21-03-48 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_21-03-48 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.987 seconds (JVM running for 1822.759)
+2021-05-17_21-03-48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_21-03-48 [Thread-24] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_21-06-09 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 27308 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_21-06-09 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_21-06-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-06-09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_21-06-09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_21-06-09 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_21-06-09 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1057 ms
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_21-06-09 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_21-06-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_21-06-09 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_21-06-09 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_21-06-09 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_21-06-09 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 2.042 seconds (JVM running for 1963.369)
+2021-05-17_21-06-09 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_21-06-09 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_21-06-09 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_21-06-09 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-05-17_21-48-43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_21-48-43 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 20188 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_21-48-43 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_21-48-43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-48-43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_21-48-43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_21-48-43 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_21-48-43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5448 ms
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_21-48-43 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_21-48-43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-48-43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_21-48-43 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_21-48-43 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_21-48-43 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_21-48-43 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 10.471 seconds (JVM running for 12.291)
+2021-05-17_21-48-43 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_21-48-43 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_21-48-43 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_21-58-19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_21-58-19 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 12892 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_21-58-19 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_21-58-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-58-19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_21-58-19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_21-58-19 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_21-58-19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2511 ms
+2021-05-17_21-58-19 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_21-58-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_21-58-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_21-58-19 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_21-58-19 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_21-58-19 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_21-58-19 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 4.774 seconds (JVM running for 5.561)
+2021-05-17_21-58-19 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_21-58-19 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_21-58-19 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-05-17_22-24-28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_22-24-28 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 4788 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_22-24-28 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_22-24-28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_22-24-28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_22-24-28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_22-24-28 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_22-24-28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5657 ms
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_22-24-28 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_22-24-28 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_22-24-28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_22-24-28 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_22-24-28 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_22-24-28 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_22-24-28 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 12.07 seconds (JVM running for 13.314)
+2021-05-17_22-24-28 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_22-24-28 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_22-24-28 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-05-17_22-24-28 [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_22-28-38 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 4788 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_22-28-38 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_22-28-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_22-28-38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_22-28-38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_22-28-38 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_22-28-38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 634 ms
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_22-28-38 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_22-28-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_22-28-38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_22-28-38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_22-28-38 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_22-28-38 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.375 seconds (JVM running for 253.585)
+2021-05-17_22-28-38 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_22-28-38 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_22-28-38 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_22-28-38 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_22-28-38 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_22-31-16 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 4788 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_22-31-16 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_22-31-16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_22-31-16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_22-31-16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_22-31-16 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_22-31-16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 692 ms
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-17_22-31-16 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_22-31-16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_22-31-16 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_22-31-16 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_22-31-16 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_22-31-16 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.453 seconds (JVM running for 411.714)
+2021-05-17_22-31-16 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_22-31-16 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_22-31-16 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_22-31-16 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-05-17_22-33-19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_22-33-19 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 16032 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_22-33-19 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_22-33-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_22-33-19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_22-33-19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_22-33-19 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_22-33-19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7771 ms
+2021-05-17_22-33-19 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_22-33-19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_22-33-19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_22-33-19 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_22-33-19 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_22-33-19 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_22-33-19 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 17.71 seconds (JVM running for 20.293)
+2021-05-17_22-33-19 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_22-33-19 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_22-33-19 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_23-17-37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_23-17-37 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-17-37 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-17-37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-17-37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-17-37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-17-37 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-17-37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3512 ms
+2021-05-17_23-17-37 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-17-37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-17-37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-17-37 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-17-37 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-17-37 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-17-37 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 7.099 seconds (JVM running for 8.673)
+2021-05-17_23-17-37 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_23-17-37 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_23-17-37 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_23-17-37 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-23-05 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-23-05 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-23-05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-23-05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-23-05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-23-05 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-23-05 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1055 ms
+2021-05-17_23-23-05 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-23-05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-23-05 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-23-05 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-23-05 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-23-05 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 2.312 seconds (JVM running for 332.457)
+2021-05-17_23-23-05 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-23-05 [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-25-54 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-25-54 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-25-54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-25-54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-25-54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-25-54 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-25-54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1235 ms
+2021-05-17_23-25-54 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-25-54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-25-54 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-25-54 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-25-54 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-25-54 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 2.406 seconds (JVM running for 501.448)
+2021-05-17_23-25-54 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-25-54 [Thread-15] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-26-25 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-26-25 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-26-25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-26-25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-26-25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-26-25 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-26-25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+2021-05-17_23-26-25 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-26-25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-26-25 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-26-25 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-26-25 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-26-25 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 2.459 seconds (JVM running for 532.697)
+2021-05-17_23-26-25 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-26-25 [Thread-22] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-26-29 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-26-29 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-26-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-26-29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-26-29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-26-29 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-26-29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 934 ms
+2021-05-17_23-26-29 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-26-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-26-29 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-26-29 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-26-29 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-26-29 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.952 seconds (JVM running for 535.938)
+2021-05-17_23-26-29 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-26-29 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_23-26-29 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_23-26-29 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-05-17_23-26-29 [Thread-29] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-28-16 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-28-16 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-28-16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-28-16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-28-16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-28-16 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-28-16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 874 ms
+2021-05-17_23-28-16 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-28-16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-28-16 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-28-16 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-28-16 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-28-16 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.978 seconds (JVM running for 643.073)
+2021-05-17_23-28-16 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-28-16 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_23-28-16 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_23-28-16 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2021-05-17_23-28-16 [Thread-36] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-34-58 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-34-58 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-34-58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-34-58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-34-58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-34-58 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-34-58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 823 ms
+2021-05-17_23-34-58 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-34-58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-34-58 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-34-58 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-34-58 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-34-58 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.821 seconds (JVM running for 1044.462)
+2021-05-17_23-34-58 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-34-58 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_23-34-58 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_23-34-58 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-05-17_23-34-58 [Thread-43] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-36-26 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-36-26 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-36-26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-36-26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-36-26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-36-26 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-36-26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 730 ms
+2021-05-17_23-36-26 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-36-26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-36-26 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-36-26 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-36-26 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-36-26 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.709 seconds (JVM running for 1132.579)
+2021-05-17_23-36-26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-36-26 [Thread-50] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-36-39 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-36-39 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-36-39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-36-39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-36-39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-36-39 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-36-39 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 627 ms
+2021-05-17_23-36-39 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-36-39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-36-39 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-36-39 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-36-39 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-36-39 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.447 seconds (JVM running for 1145.908)
+2021-05-17_23-36-39 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-36-39 [Thread-57] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-36-52 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-36-52 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-36-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-36-52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-36-52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-36-52 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-36-52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 800 ms
+2021-05-17_23-36-52 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-36-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-36-52 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-36-52 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-36-52 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-36-52 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.648 seconds (JVM running for 1158.393)
+2021-05-17_23-36-52 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-36-52 [Thread-64] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-38-04 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-38-04 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-38-04 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-38-04 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-04 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-04 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-04 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-38-04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-38-04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-38-04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-38-04 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-38-04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-38-04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 790 ms
+2021-05-17_23-38-04 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-05-17_23-38-04 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-17_23-38-10 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 3004 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-38-10 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-38-10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-38-10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-38-10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-38-10 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-38-10 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 739 ms
+2021-05-17_23-38-10 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-38-10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-38-10 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-38-10 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-38-10 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-38-10 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 1.74 seconds (JVM running for 1237.309)
+2021-05-17_23-38-10 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-38-10 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_23-38-10 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_23-38-10 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-05-17_23-38-48 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_23-38-48 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 21172 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-38-48 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-38-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-38-48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-38-48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-38-48 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-38-48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3560 ms
+2021-05-17_23-38-48 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-38-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-38-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-38-48 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-05-17_23-38-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-38-48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-38-48 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-17_23-41-02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-05-17_23-41-02 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 14152 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-41-02 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-41-02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-41-02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-41-02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-41-02 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-41-02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4196 ms
+2021-05-17_23-41-02 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-41-02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-41-02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-41-02 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-41-02 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-41-02 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-41-02 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 9.208 seconds (JVM running for 10.814)
+2021-05-17_23-41-02 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_23-41-02 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_23-41-02 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-05-17_23-41-02 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-43-11 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Starting PortalMicroserviceApplication using Java 15.0.2 on LAPTOP-QJCKFUJK with PID 14152 (C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice\target\classes started by USER in C:\Users\USER\eclipse-workspace\CDE-Project-International-Patients-treatment-management.zip_expanded\CDE-Project-International-Patients-treatment-management\Portal-Microservice)
+2021-05-17_23-43-11 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2291ec33-94c2-32c8-8b32-b8903be79cb8
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.IPTreatmentOfferingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.portal.feign.InsuranceClaimClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8500 (http)
+2021-05-17_23-43-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-43-11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-17_23-43-11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-17_23-43-11 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-17_23-43-11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1134 ms
+2021-05-17_23-43-11 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-17_23-43-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8500"]
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8500 (http) with context path ''
+2021-05-17_23-43-11 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-17_23-43-11 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-17_23-43-11 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-17_23-43-11 [restartedMain] INFO  c.c.p.PortalMicroserviceApplication - Started PortalMicroserviceApplication in 2.33 seconds (JVM running for 134.106)
+2021-05-17_23-43-11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-05-17_23-43-11 [http-nio-8500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-17_23-43-11 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-17_23-43-11 [http-nio-8500-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
