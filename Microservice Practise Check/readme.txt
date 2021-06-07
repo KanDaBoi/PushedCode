@@ -1,0 +1,1 @@
+The rar contains 4 different services linked together, namely, the truyum restaurant menu item service, an authorization token generator service, a eureka registration service and a zuul gateway service.
